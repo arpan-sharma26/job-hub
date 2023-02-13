@@ -23,7 +23,7 @@ const Signin = () => {
 
     return (
         <div style={{'display':'flex'}}>
-            <Typography variant="h2">Please sign in. </Typography>
+            <Typography variant="h2">Please sign ins. </Typography>
             <GoogleButton onClick={handleGoogleSignIn} style={{'margin':'auto', marginTop: '5rem'}}/>
         </div>
     );
