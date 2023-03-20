@@ -20,6 +20,7 @@ const Navbar = () => {
             navigate('/account');
         else
             navigate('/');
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [user]);
 
     return (
